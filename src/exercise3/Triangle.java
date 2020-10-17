@@ -27,13 +27,13 @@ public class Triangle {
         double area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
         System.out.println("Area: " + area);
         if (a == b && a == c && b == c) {
-          System.out.println("Typ: equilateral");
+          System.out.println("Triangle: equilateral");
         }
         else if (a == b || a == c || b == c) {
-          System.out.println("Typ: isosceles");
+          System.out.println("Triangle: isosceles");
         }
         else {
-          System.out.println("Typ: scalene");
+          System.out.println("Triangle: scalene");
         }
       }
       else {
